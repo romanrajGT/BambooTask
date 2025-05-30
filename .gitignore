@@ -1,0 +1,11 @@
+# Ignore the Build folder at the root level
+/Build/
+
+# Ignore the Plugins folder inside Presentation/Nop.Web/
+Presentation/Nop.Web/Plugins/
+Presentation/Nop.Web/bin/
+Presentation/Nop.Web/obj/
+
+# Ignore bin and obj folders inside every plugin under the Plugins/ directory
+Plugins/**/bin/
+Plugins/**/obj/
