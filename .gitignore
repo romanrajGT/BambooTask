@@ -9,3 +9,6 @@ Presentation/Nop.Web/obj/
 # Ignore bin and obj folders inside every plugin under the Plugins/ directory
 Plugins/**/bin/
 Plugins/**/obj/
+
+# Ignore Tests
+Tests
