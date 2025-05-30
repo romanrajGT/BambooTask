@@ -9,7 +9,7 @@
     5. Now down in **Requirements** panel for the same Discount, select **Custom Discounts** from the **Discount Requirement Type** dropdown and click **Save** button to apply the                       Requirement Rule of customer to have 3 or more orders previously to be eligible for the discount.
 
 ## 2. Modify Checkout for Gift Message
-1.Go to **Admin Panel > Catalog > Attributes > Checkout Attributes**
+1. Go to **Admin Panel > Catalog > Attributes > Checkout Attributes**
 2. Click **Add new**
 3. Enter field values:
     * Name: Gift Message
