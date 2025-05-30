@@ -12,7 +12,3 @@ Plugins/**/obj/
 
 # Ignore Tests
 Tests
-
-Plugins
-
-Libraries
