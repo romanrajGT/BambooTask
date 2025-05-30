@@ -1,0 +1,11 @@
+{
+  "Group": "Discounts",
+  "FriendlyName": "Custom Discounts",
+  "SystemName": "Custom.Discounts",
+  "Version": "1.0.2",
+  "SupportedVersions": [ "4.80" ],
+  "Author": "nopCommerce team",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Custom.Discounts.dll",
+  "Description": "This plugin is for configuring custom discount rule for customers with orders more than certain number"
+}
