@@ -1,6 +1,6 @@
 ## 1. Plugin for Discount Requirement
     1. Plugin Name - **Nop.Plugin.Custom.Discounts**
-    2. Installation - The source code is in the **Plugins** folder, and with that folder in **src/Plugins**, log in to **Admin Panel > Local Plugins** and find the plugin in the list and install it.
+    2. Installation - Log in to **Admin Panel > Local Plugins** and find the plugin in the list and install it.
     3. With this plugin installed, to enable and apply discount percentage
         1. Go to **Admin Panel > Promotions > Discounts > Add new**
         2. Check or uncheck **Is active** checkbox for enabling or disabling the discount
@@ -32,7 +32,7 @@
 
 ## 4. Order Retrieval API Plugin
     1. Plugin Name - **Nop.Plugin.Api.OrderRetrieval**
-    2. Installation - The source code is in the **Plugins** folder, and with that folder in **src/Plugins**, log in to **Admin Panel > Local Plugins** and find the plugin in the list and install it. 
+    2. Installation - Log in to **Admin Panel > Local Plugins** and find the plugin in the list and install it. 
 
 ## 5. Test Order Retrieval APIs
     1. You can find postman collection in **https://github.com/romanrajGT/BambooTask/blob/main/Bamboo.postman_collection.json** Import it into your Postman to test API endpoints, such as authentication & order retrieval. 
