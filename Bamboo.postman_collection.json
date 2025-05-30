@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "1969986d-e1b1-4a43-b42c-3ef45cb591ca",
+		"name": "Bamboo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13044494"
+	},
+	"item": [
+		{
+			"name": "http://localhost:59580/api/token/generate",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"TestUser\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:59580/api/token/generate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "59580",
+					"path": [
+						"api",
+						"token",
+						"generate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:59580/api/order/by-email?email=admin@yourStore.com",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwibmJmIjoxNzQ4NTc4NTcyLCJleHAiOjE3NDg1ODIxNzIsImlhdCI6MTc0ODU3ODU3MiwiaXNzIjoiVGVzdElzc3VlciIsImF1ZCI6IlRlc3RBdWRpZW5jZSJ9.wmSpJMwFTXtHp83Gbse8LDfrz3hdEW6HczBGpkNlkeE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:59580/api/order/by-email?email=admin@yourStore.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "59580",
+					"path": [
+						"api",
+						"order",
+						"by-email"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "admin@yourStore.com"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
