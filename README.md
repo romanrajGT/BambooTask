@@ -10,7 +10,7 @@
 
 ##2. Modify Checkout for Gift Message
 1. Go to **Admin Panel > Catalog > Attributes > Checkout Attributes**
-2. Click “Add new”
+2. Click **Add new**
 3. Enter field values:
     * Name: Gift Message
     * Text prompt: Enter a gift message (optional)
@@ -21,22 +21,23 @@
 NopCommerce will automatically:
     * Add it to the checkout UI.
     * Save the value with the order.
-    * Show it in the Admin Panel > Orders > Order Details page.
-    * Show it in the customer's My Account > Orders section.
+    * Show it in the **Admin Panel > Orders > Order Details** page.
+    * Show it in the customer's **My Account > Orders** section.
 
 
-3. Add Search by Name in Product Attribute list in Admin Panel
+## 3. Add Search by Name in Product Attribute list in Admin Panel
 1. All changes done in the core code in files.
+2. To check results, go to **Admin Panel > Attributes > Product Attributes**
 
 
-4. Order Retrieval API Plugin
-1. Plugin Name - Nop.Plugin.Api.OrderRetrieval
-2. Installation - The source code is in the Plugins folder, and with that folder in src/Plugins, log in to Admin Panel > Local Plugins and find the plugin in the list and install it. 
+## 4. Order Retrieval API Plugin
+1. Plugin Name - **Nop.Plugin.Api.OrderRetrieval**
+2. Installation - The source code is in the **Plugins** folder, and with that folder in **src/Plugins**, log in to **Admin Panel > Local Plugins** and find the plugin in the list and install it. 
 
-5. Test Order Retrieval APIs
-1. You can find postman collection in https://github.com/romanrajGT/BambooTask/blob/main/Bamboo.postman_collection.json Import it into your Postman to test API endpoints, such as authentication & order retrieval. 
+## 5. Test Order Retrieval APIs
+1. You can find postman collection in **https://github.com/romanrajGT/BambooTask/blob/main/Bamboo.postman_collection.json** Import it into your Postman to test API endpoints, such as authentication & order retrieval. 
     1. Generate JWT Token:
-        * In Postman, create a new http POST request to baseUrl/api/token/generate with username in the post body request as shown in the postman collection
-    2. Testing the order retrieval API: Do a get request to baseUrl/api/order/by-email?email=yourCustomerEmail, yourCustomerEmail being the email of the customer of whom the order details are to be retrieved. Do not forget to pass Bearer token generated from Token Generation endpoint from first point with the request. 
+        * In Postman, create a new http POST request to **baseUrl/api/token/generate** with username in the post body request as shown in the postman collection
+    2. Testing the order retrieval API: Do a get request to **baseUrl/api/order/by-email?email=yourCustomerEmail**, **yourCustomerEmail** being the email of the customer of whom the order details are to be retrieved. Do not forget to pass Bearer token generated from Token Generation endpoint from first point with the request. 
 
 6. 
